@@ -1,5 +1,5 @@
 PODS:
-  - WRBlueScreen (1.0.0)
+  - WRBlueScreen (1.0.1)
 
 DEPENDENCIES:
   - WRBlueScreen (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WRBlueScreen: 582b47a4fc6745e6e14b26c4dd99a03d1085ce5d
+  WRBlueScreen: e4a0ae16c7e9c60e047457376afaa9b36b192af6
 
 COCOAPODS: 0.39.0
