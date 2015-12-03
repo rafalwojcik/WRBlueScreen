@@ -25,17 +25,29 @@
                                     <action selector="showBSOD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSb-TE-ZLz"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J85-vS-GXy">
+                                <rect key="frame" x="221" y="230" width="158" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="158" id="xqA-ls-cJW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="AES-1R-Giu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="459-vJ-IbP"/>
+                            <constraint firstItem="AES-1R-Giu" firstAttribute="top" secondItem="J85-vS-GXy" secondAttribute="bottom" constant="25" id="8hv-0k-w2z"/>
                             <constraint firstItem="AES-1R-Giu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="V6l-ls-2gH"/>
+                            <constraint firstItem="J85-vS-GXy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YEZ-uH-RbF"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="401" y="452"/>
         </scene>
     </scenes>
 </document>

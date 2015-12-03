@@ -49,7 +49,6 @@ static NSString * const kDOSFontFileName = @"DOSFont";
 
 - (void)showErrorMessage:(NSString *)errorMessage {
     self.errorLabel.text = [NSString stringWithFormat:@"Error: %@", errorMessage];
-    [self randomCrashApp];
 }
 
 - (void)dynamicallyLoadFontNamed:(NSString *)name {
@@ -67,19 +66,6 @@ static NSString * const kDOSFontFileName = @"DOSFont";
         CFRelease(font);
         CFRelease(provider);
     }
-}
-
-- (void)randomCrashApp {
-    NSInteger randomNumber = arc4random() % 100;
-    if (randomNumber > 70) {
-        NSInteger randomCrashTime = 1 + arc4random() % 5;
-        [NSTimer scheduledTimerWithTimeInterval:randomCrashTime target:self selector:@selector(crashApp) userInfo:nil repeats:FALSE];
-    }
-}
-
-- (void)crashApp {
-    NSLog(@"BSOD");
-    [@[] objectAtIndex:666];
 }
 
 @end
