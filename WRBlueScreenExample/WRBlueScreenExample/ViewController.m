@@ -12,6 +12,7 @@
 }
 
 - (IBAction)showBSOD:(id)sender {
+    [WRBlueScreen sharedWindow].shouldCrashApplication = NO;
     [[WRBlueScreen sharedWindow] showErrorMessage:@"API Fatality !!!"];
 }
 

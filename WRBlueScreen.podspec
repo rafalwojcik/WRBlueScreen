@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name     = 'WRBlueScreen'
-   s.version  = '1.0.1'
+   s.version  = '1.0.2'
    s.license  = 'MIT'
    s.summary  = 'iOS error handling on old school Windows BSOD.'
    s.homepage = 'https://github.com/rafalwojcik/WRBlueScreen'
