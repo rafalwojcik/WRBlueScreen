@@ -1,0 +1,6 @@
+target 'WRBlueScreenExample' do
+
+pod 'WRBlueScreen', :path => "../"
+
+end
+
