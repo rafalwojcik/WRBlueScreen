@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WRBlueScreenView" customModule="WRBlueScreenSwift">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4pL-tQ-7b7">
+                    <rect key="frame" x="34" y="127" width="252" height="227"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sPa-Fg-6Bt">
+                            <rect key="frame" x="105" y="0.0" width="43" height="21"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4W-T2-WIm">
+                                    <rect key="frame" x="8" y="0.0" width="27" height="21"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="L4W-T2-WIm" secondAttribute="bottom" id="8xx-la-sgq"/>
+                                <constraint firstItem="L4W-T2-WIm" firstAttribute="leading" secondItem="sPa-Fg-6Bt" secondAttribute="leading" constant="8" id="DjB-fx-pUl"/>
+                                <constraint firstAttribute="trailing" secondItem="L4W-T2-WIm" secondAttribute="trailing" constant="8" id="HLE-wA-GLe"/>
+                                <constraint firstItem="L4W-T2-WIm" firstAttribute="top" secondItem="sPa-Fg-6Bt" secondAttribute="top" id="ova-1c-SQg"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press Home Button to return to iOS, or" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="252" translatesAutoresizingMaskIntoConstraints="NO" id="Air-1I-qkV">
+                            <rect key="frame" x="0.0" y="69" width="252" height="16"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error: 0E : 016F : BFF9B3D4" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="252" translatesAutoresizingMaskIntoConstraints="NO" id="x73-95-iTq">
+                            <rect key="frame" x="0.0" y="179" width="252" height="16"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="252" translatesAutoresizingMaskIntoConstraints="NO" id="0bS-bE-Scz">
+                            <rect key="frame" x="0.0" y="101" width="252" height="62"/>
+                            <animations/>
+                            <string key="text">Press and hold HOME+POWER to restart your device. If you do this, you will lose any unsaved information in all open applications.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press any key to continue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFT-xE-apR">
+                            <rect key="frame" x="0.0" y="211" width="227" height="16"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZFW-Rw-bGX">
+                            <rect key="frame" x="235" y="211" width="6" height="16"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An error has occured. To continue:" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="252" translatesAutoresizingMaskIntoConstraints="NO" id="hyV-dn-aB5">
+                            <rect key="frame" x="0.0" y="37" width="252" height="16"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="sPa-Fg-6Bt" firstAttribute="centerX" secondItem="4pL-tQ-7b7" secondAttribute="centerX" id="5cz-VS-rba"/>
+                        <constraint firstItem="hyV-dn-aB5" firstAttribute="top" secondItem="sPa-Fg-6Bt" secondAttribute="bottom" constant="16" id="77q-gy-5ED"/>
+                        <constraint firstItem="sPa-Fg-6Bt" firstAttribute="top" secondItem="4pL-tQ-7b7" secondAttribute="top" id="9I7-oM-LfL"/>
+                        <constraint firstItem="hyV-dn-aB5" firstAttribute="leading" secondItem="4pL-tQ-7b7" secondAttribute="leading" id="Goa-J7-Wc7"/>
+                        <constraint firstAttribute="trailing" secondItem="Air-1I-qkV" secondAttribute="trailing" id="Mbc-2v-ZiY"/>
+                        <constraint firstItem="OFT-xE-apR" firstAttribute="top" secondItem="x73-95-iTq" secondAttribute="bottom" constant="16" id="OWp-aP-MHv"/>
+                        <constraint firstItem="0bS-bE-Scz" firstAttribute="leading" secondItem="4pL-tQ-7b7" secondAttribute="leading" id="QAO-HJ-Loa"/>
+                        <constraint firstItem="ZFW-Rw-bGX" firstAttribute="baseline" secondItem="OFT-xE-apR" secondAttribute="baseline" id="Uop-xA-eqa"/>
+                        <constraint firstItem="OFT-xE-apR" firstAttribute="leading" secondItem="4pL-tQ-7b7" secondAttribute="leading" id="VV2-Xh-ion"/>
+                        <constraint firstItem="x73-95-iTq" firstAttribute="top" secondItem="0bS-bE-Scz" secondAttribute="bottom" constant="16" id="XHH-S1-Q6O"/>
+                        <constraint firstAttribute="trailing" secondItem="hyV-dn-aB5" secondAttribute="trailing" id="eyJ-Fi-HMo"/>
+                        <constraint firstItem="ZFW-Rw-bGX" firstAttribute="leading" secondItem="OFT-xE-apR" secondAttribute="trailing" constant="8" id="fA5-iV-D8W"/>
+                        <constraint firstItem="Air-1I-qkV" firstAttribute="top" secondItem="hyV-dn-aB5" secondAttribute="bottom" constant="16" id="hKv-7V-or3"/>
+                        <constraint firstItem="Air-1I-qkV" firstAttribute="leading" secondItem="4pL-tQ-7b7" secondAttribute="leading" id="lqY-Rh-iaP"/>
+                        <constraint firstAttribute="bottom" secondItem="OFT-xE-apR" secondAttribute="bottom" id="mTw-DJ-LJg"/>
+                        <constraint firstAttribute="trailing" secondItem="0bS-bE-Scz" secondAttribute="trailing" id="rDY-Yn-CWm"/>
+                        <constraint firstItem="0bS-bE-Scz" firstAttribute="top" secondItem="Air-1I-qkV" secondAttribute="bottom" constant="16" id="w56-Gb-JIp"/>
+                        <constraint firstAttribute="trailing" secondItem="OFT-xE-apR" secondAttribute="trailing" constant="25" id="wfh-5p-kxM"/>
+                        <constraint firstAttribute="trailing" secondItem="x73-95-iTq" secondAttribute="trailing" id="x3M-Gk-ac2"/>
+                        <constraint firstItem="x73-95-iTq" firstAttribute="leading" secondItem="4pL-tQ-7b7" secondAttribute="leading" id="yqP-h8-ll3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4pL-tQ-7b7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8mn-KU-7PM"/>
+                <constraint firstAttribute="trailing" secondItem="4pL-tQ-7b7" secondAttribute="trailing" constant="34" id="DaI-P8-Cbu"/>
+                <constraint firstItem="4pL-tQ-7b7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="34" id="agV-NQ-fzW"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="blinkCursor" destination="ZFW-Rw-bGX" id="QFb-Cb-thu"/>
+                <outlet property="errorLabel" destination="x73-95-iTq" id="NMi-bx-ceW"/>
+                <outletCollection property="allLabels" destination="L4W-T2-WIm" collectionClass="NSMutableArray" id="Ckv-A5-Kqb"/>
+                <outletCollection property="allLabels" destination="hyV-dn-aB5" collectionClass="NSMutableArray" id="bGZ-Gd-hks"/>
+                <outletCollection property="allLabels" destination="Air-1I-qkV" collectionClass="NSMutableArray" id="3Lh-03-cao"/>
+                <outletCollection property="allLabels" destination="x73-95-iTq" collectionClass="NSMutableArray" id="GGF-qt-xk0"/>
+                <outletCollection property="allLabels" destination="0bS-bE-Scz" collectionClass="NSMutableArray" id="URV-t4-lQX"/>
+                <outletCollection property="allLabels" destination="OFT-xE-apR" collectionClass="NSMutableArray" id="xiY-2n-KfD"/>
+                <outletCollection property="allLabels" destination="ZFW-Rw-bGX" collectionClass="NSMutableArray" id="dSh-sW-B5I"/>
+                <outletCollection property="allLabels" destination="hyV-dn-aB5" collectionClass="NSMutableArray" id="i4l-o8-586"/>
+                <outletCollection property="allLabels" destination="L4W-T2-WIm" collectionClass="NSMutableArray" id="91M-ay-Qo1"/>
+                <outletCollection property="allLabels" destination="Air-1I-qkV" collectionClass="NSMutableArray" id="IST-wg-GLK"/>
+                <outletCollection property="allLabels" destination="x73-95-iTq" collectionClass="NSMutableArray" id="BBz-1v-jiP"/>
+                <outletCollection property="allLabels" destination="0bS-bE-Scz" collectionClass="NSMutableArray" id="Lvv-eY-3AG"/>
+                <outletCollection property="allLabels" destination="OFT-xE-apR" collectionClass="NSMutableArray" id="irj-tO-HA1"/>
+                <outletCollection property="allLabels" destination="ZFW-Rw-bGX" collectionClass="NSMutableArray" id="Lwk-ly-Icb"/>
+            </connections>
+            <point key="canvasLocation" x="275" y="299"/>
+        </view>
+    </objects>
+</document>

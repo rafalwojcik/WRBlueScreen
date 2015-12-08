@@ -33,3 +33,5 @@ DerivedData
 Carthage/Build
 WRBlueScreenExample/Pods
 WRBlueScreenExample/WRBlueScreenExample.xcworkspace
+WRBlueScreenSwiftExample/Pods
+WRBlueScreenSwiftExample/WRBlueScreenSwiftExample.xcworkspace
