@@ -2,7 +2,7 @@ platform :ios, '7.0'
 
 target 'WRBlueScreenExample' do
 
-pod 'WRBlueScreen', :path => "../"
+	pod 'WRBlueScreen', :path => "../"
 
 end
 
